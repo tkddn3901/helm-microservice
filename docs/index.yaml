@@ -3,7 +3,7 @@ entries:
   msa-platform:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-07-02T09:34:38.191202383+09:00"
+    created: "2026-07-02T09:47:16.232436315+09:00"
     dependencies:
     - condition: index-app.enabled
       name: index-app
@@ -22,6 +22,6 @@ entries:
     name: msa-platform
     type: application
     urls:
-    - https://github.io/tkddn3901/helm-microservice/msa-platform-0.1.0.tgz
+    - https://tkddn3901.github.io/helm-microservice/msa-platform-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-02T09:34:38.19060407+09:00"
+generated: "2026-07-02T09:47:16.230441612+09:00"
