@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 1.0.0
+dependencies:
+- condition: index-app.enabled
+  name: index-app
+  repository: file://charts/index
+  version: 0.1.0
+- condition: market-app.enabled
+  name: market-app
+  repository: file://charts/market
+  version: 0.1.0
+- condition: post-app.enabled
+  name: post-app
+  repository: file://charts/post
+  version: 0.1.0
+description: index + market + post
+name: msa-platform
+type: application
+version: 0.1.0
